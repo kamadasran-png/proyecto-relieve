@@ -1,9 +1,8 @@
-/* ===========================================
-   NICOLETA FILIP ART
-   Proyecto Relieve
-   Hoja de estilos principal
-=========================================== */
-
+/*====================================================
+ NICOLETA FILIP ART
+ Proyecto Relieve
+ Museo Digital Oficial
+=====================================================*/
 
 /* RESET */
 
@@ -13,55 +12,152 @@
     box-sizing:border-box;
 }
 
-
 /* VARIABLES */
 
 :root{
 
     --marfil:#F6F1E8;
-    --blanco:#FFFFFF;
-    --oro:#B69B5A;
-    --gris:#555555;
-    --negro:#1D1D1D;
+    --blanco:#ffffff;
+    --negro:#222222;
+    --oro:#B4975A;
+    --gris:#777777;
 
 }
-
 
 /* ESTILO GENERAL */
 
 body{
 
     background:var(--marfil);
+
     color:var(--negro);
 
-    font-family:Georgia, serif;
+    font-family:Georgia, "Times New Roman", serif;
 
-    line-height:1.6;
-
-}
-
-
-/* TITULOS */
-
-h1,h2,h3{
-
-    font-weight:normal;
-    letter-spacing:1px;
+    line-height:1.7;
 
 }
 
+/*=========================
+ CABECERA
+=========================*/
 
-/* ENLACES */
+header{
 
-a{
+    max-width:1200px;
 
-    color:var(--oro);
+    margin:auto;
+
+    text-align:center;
+
+    padding:60px 30px;
+
+}
+
+header h1{
+
+    font-size:56px;
+
+    letter-spacing:3px;
+
+    margin-bottom:15px;
+
+}
+
+header p{
+
+    color:var(--gris);
+
+    font-size:20px;
+
+    margin-bottom:40px;
+
+}
+
+/*=========================
+ MENÚ
+=========================*/
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:35px;
+
+    flex-wrap:wrap;
+
+}
+
+nav a{
+
+    color:var(--negro);
+
     text-decoration:none;
 
+    font-size:18px;
+
+    transition:.3s;
+
 }
 
-a:hover{
+nav a:hover{
 
-    opacity:.75;
+    color:var(--oro);
+
+}
+
+/*=========================
+ CONTENIDO
+=========================*/
+
+main{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:70px 30px;
+
+}
+
+section{
+
+    text-align:center;
+
+}
+
+section h2{
+
+    font-size:36px;
+
+    margin-bottom:30px;
+
+}
+
+section p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    font-size:20px;
+
+}
+
+/*=========================
+ PIE
+=========================*/
+
+footer{
+
+    text-align:center;
+
+    padding:50px;
+
+    color:var(--gris);
+
+    font-size:15px;
 
 }
