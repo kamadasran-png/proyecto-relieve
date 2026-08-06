@@ -1,1 +1,67 @@
+/* ===========================================
+   NICOLETA FILIP ART
+   Proyecto Relieve
+   Hoja de estilos principal
+=========================================== */
 
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* VARIABLES */
+
+:root{
+
+    --marfil:#F6F1E8;
+    --blanco:#FFFFFF;
+    --oro:#B69B5A;
+    --gris:#555555;
+    --negro:#1D1D1D;
+
+}
+
+
+/* ESTILO GENERAL */
+
+body{
+
+    background:var(--marfil);
+    color:var(--negro);
+
+    font-family:Georgia, serif;
+
+    line-height:1.6;
+
+}
+
+
+/* TITULOS */
+
+h1,h2,h3{
+
+    font-weight:normal;
+    letter-spacing:1px;
+
+}
+
+
+/* ENLACES */
+
+a{
+
+    color:var(--oro);
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    opacity:.75;
+
+}
