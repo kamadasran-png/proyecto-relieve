@@ -1,163 +1,287 @@
-/*====================================================
+/*====================================================*
  NICOLETA FILIP ART
  Proyecto Relieve
  Museo Digital Oficial
-=====================================================*/
+ V1.1
+*=====================================================*/
 
-/* RESET */
+/*=========================*
+ RESET
+*=========================*/
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* VARIABLES */
 
-:root{
+/*=========================*
+ VARIABLES
+*=========================*/
 
-    --marfil:#F6F1E8;
-    --blanco:#ffffff;
-    --negro:#222222;
-    --oro:#B4975A;
-    --gris:#777777;
-
+:root {
+    --marfil: #F6F1E8;
+    --blanco: #FFFFFF;
+    --negro: #222222;
+    --oro: #B4975A;
+    --oro-claro: #D5C18A;
+    --gris: #777777;
+    --gris-claro: #E8E1D5;
 }
 
-/* ESTILO GENERAL */
 
-body{
+/*=========================*
+ ESTILO GENERAL
+*=========================*/
 
-    background:var(--marfil);
-
-    color:var(--negro);
-
-    font-family:Georgia, "Times New Roman", serif;
-
-    line-height:1.7;
-
+html {
+    scroll-behavior: smooth;
 }
 
-/*=========================
+body {
+    background: var(--marfil);
+    color: var(--negro);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+
+/*=========================*
  CABECERA
-=========================*/
+*=========================*/
 
-header{
-
-    max-width:1200px;
-
-    margin:auto;
-
-    text-align:center;
-
-    padding:60px 30px;
-
+header {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 45px 30px 35px;
 }
 
-header h1{
-
-    font-size:56px;
-
-    letter-spacing:3px;
-
-    margin-bottom:15px;
-
+header h1 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-bottom: 10px;
 }
 
-header p{
-
-    color:var(--gris);
-
-    font-size:20px;
-
-    margin-bottom:40px;
-
+header p {
+    color: var(--gris);
+    font-size: 19px;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
 }
 
-/*=========================
+
+/*=========================*
  MENÚ
-=========================*/
+*=========================*/
 
-nav{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:35px;
-
-    flex-wrap:wrap;
-
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--gris-claro);
+    border-bottom: 1px solid var(--gris-claro);
+    padding: 15px 10px;
 }
 
-nav a{
-
-    color:var(--negro);
-
-    text-decoration:none;
-
-    font-size:18px;
-
-    transition:.3s;
-
+nav a {
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.3s ease;
 }
 
-nav a:hover{
-
-    color:var(--oro);
-
+nav a:hover {
+    color: var(--oro);
 }
 
-/*=========================
- CONTENIDO
-=========================*/
 
-main{
+/*=========================*
+ CONTENIDO GENERAL
+*=========================*/
 
-    max-width:1100px;
-
-    margin:auto;
-
-    padding:70px 30px;
-
+main {
+    max-width: 1150px;
+    margin: auto;
+    padding: 70px 30px;
 }
 
-section{
-
-    text-align:center;
-
+section {
+    text-align: center;
+    margin-bottom: 90px;
 }
 
-section h2{
-
-    font-size:36px;
-
-    margin-bottom:30px;
-
+section h2 {
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
 }
 
-section p{
-
-    max-width:800px;
-
-    margin:auto;
-
-    font-size:20px;
-
+section p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 19px;
 }
 
-/*=========================
+
+/*=========================*
+ HERO
+*=========================*/
+
+.hero {
+    padding: 75px 30px 90px;
+}
+
+.hero h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 780px;
+}
+
+
+/*=========================*
+ BOTONES
+*=========================*/
+
+.boton {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 13px 30px;
+    border: 1px solid var(--oro);
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background: var(--oro);
+    color: var(--blanco);
+}
+
+
+/*=========================*
+ PRESENTACIÓN
+*=========================*/
+
+.presentacion {
+    border-top: 1px solid var(--gris-claro);
+    padding-top: 70px;
+}
+
+
+/*=========================*
+ OBRA DESTACADA
+*=========================*/
+
+.destacada {
+    border-top: 1px solid var(--gris-claro);
+    padding-top: 70px;
+}
+
+.destacada article {
+    max-width: 650px;
+    margin: 40px auto 0;
+}
+
+.destacada img {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 0 auto 30px;
+}
+
+.destacada h3 {
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.destacada article p {
+    font-size: 18px;
+    color: var(--gris);
+}
+
+
+/*=========================*
  PIE
-=========================*/
+*=========================*/
 
-footer{
+footer {
+    border-top: 1px solid var(--gris-claro);
+    text-align: center;
+    padding: 45px 30px;
+    color: var(--gris);
+    font-size: 15px;
+}
 
-    text-align:center;
 
-    padding:50px;
+/*=========================*
+ ADAPTACIÓN MÓVIL
+*=========================*/
 
-    color:var(--gris);
+@media (max-width: 700px) {
 
-    font-size:15px;
+    header {
+        padding: 35px 20px 25px;
+    }
+
+    header h1 {
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    nav {
+        gap: 15px 22px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 45px 20px;
+    }
+
+    section {
+        margin-bottom: 65px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    .hero {
+        padding: 45px 10px 60px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .destacada img {
+        max-width: 100%;
+    }
 
 }
