@@ -135,7 +135,7 @@ body {
             rgba(246, 241, 232, 0.20) 72%,
             rgba(246, 241, 232, 0.05) 100%
         ),
-        url("../imagenes/hero/hero.jpg");
+        url("../imagenes/hero/hero.png");
 
     background-size: cover;
     background-position: center;
