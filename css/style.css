@@ -58,12 +58,13 @@ header {
 }
 /* LOGOTIPO */
 
-.marca img{
-    display:block;
-    width:420px;
-    max-width:90%;
-    height:auto;
-    margin:0 auto 20px auto;
+.marca img {
+    width: 420px;
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto 25px auto;
+}
 }
 header h1 {
     font-size: 52px;
