@@ -197,7 +197,9 @@ body {
     max-width: 560px;
 
     font-size: 18px;
+    line-height: 1.65;
     color: #444;
+    margin: 0;
 }
 
 
