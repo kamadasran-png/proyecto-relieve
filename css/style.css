@@ -238,7 +238,11 @@ body {
     background: var(--oro);
     color: var(--blanco);
 }
+/* AJUSTE VERTICAL DEL CONTENIDO HERO */
 
+.hero-contenido {
+    transform: translateY(-12px);
+}
 
 /* =========================
    SCROLL
