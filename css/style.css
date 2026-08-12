@@ -53,30 +53,33 @@ CABECERA
 .cabecera {
     width: 100%;
     background: var(--marfil);
+    border-bottom: 1px solid rgba(180, 151, 90, 0.18);
 }
 
 .cabecera-contenedor {
     max-width: 1200px;
+    height: 150px;
     margin: 0 auto;
     padding: 18px 30px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     gap: 50px;
 }
 
 /* LOGOTIPO */
 
 .logotipo {
-    display: block;
+    display: flex;
+    align-items: center;
     flex-shrink: 0;
-    width: 180px;
 }
 
 .logotipo img {
     display: block;
-    width: 100%;
+    width: 180px;
     height: auto;
 }
 
@@ -86,14 +89,21 @@ CABECERA
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 30px;
+
+    gap: 32px;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-navegacion a {
     color: var(--negro);
     text-decoration: none;
-    white-space: nowrap;
+
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 16px;
+
+    white-space: nowrap;
+
     transition: color 0.3s ease;
 }
 
