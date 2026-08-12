@@ -75,8 +75,6 @@ CABECERA
     display: block;
     width: 190px;
     height: auto;
-    flex-shrink: 0;
-    transform: translateY(-7px);
 }
 
 /* MENÚ */
