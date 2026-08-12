@@ -71,10 +71,12 @@ CABECERA
     flex-shrink: 0;
 }
 
-.logotipo img {
+.logotipo {
     display: block;
-    width: 195px;
+    width: 190px;
     height: auto;
+    flex-shrink: 0;
+    transform: translateY(-7px);
 }
 
 /* MENÚ */
