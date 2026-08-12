@@ -47,12 +47,18 @@ body {
 
 
 /* =========================
-CABECERA
+   CABECERA
 ========================= */
+
+.cabecera {
+    width: 100%;
+    background: var(--marfil);
+    border-bottom: 1px solid rgba(180, 151, 90, 0.18);
+}
 
 .cabecera-contenedor {
     max-width: 1200px;
-    height: 140px;
+    height: 150px;
     margin: 0 auto;
     padding: 18px 30px;
 
@@ -63,7 +69,10 @@ CABECERA
     gap: 50px;
 }
 
-/* LOGOTIPO */
+
+/* =========================
+   LOGOTIPO
+========================= */
 
 .logotipo {
     display: flex;
@@ -71,38 +80,36 @@ CABECERA
     flex-shrink: 0;
 }
 
-.logotipo {
+.logotipo img {
     display: block;
     width: 190px;
     height: auto;
+    max-height: 115px;
+    object-fit: contain;
 }
 
-/* MENÚ */
+
+/* =========================
+   MENÚ
+========================= */
 
 .menu-navegacion {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
-    gap: 32px;
+    gap: 30px;
+
     margin: 0;
     padding: 0;
 }
 
 .menu-navegacion a {
-    color: var(--negro);
-    text-decoration: none;
-
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 16px;
-
     white-space: nowrap;
+    text-decoration: none;
+    color: var(--negro);
 
-    transition: color 0.3s ease;
-}
-
-.menu-navegacion a:hover {
-    color: var(--oro);
+    font-size: 16px;
 }
 /* =========================
    HERO
