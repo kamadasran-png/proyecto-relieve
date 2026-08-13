@@ -500,7 +500,7 @@ footer p {
    ========================= */
 
 .galeria-introduccion {
-    max-width: 300px;
+    max-width: 900px;
 
     margin: 0 auto;
 
@@ -509,8 +509,6 @@ footer p {
     text-align: center;
 
     border-bottom: 1px solid rgba(180, 151, 90, 0.25);
-
-    background: #e8dfcf;
 }
 
 .galeria-introduccion .etiqueta {
@@ -518,6 +516,8 @@ footer p {
 }
 
 .galeria-introduccion h1 {
+    max-width: 750px;
+
     margin: 0 auto 25px;
 
     font-size: clamp(48px, 6vw, 72px);
@@ -529,7 +529,7 @@ footer p {
     font-style: italic;
 }
 
-.galeria-introduccion > p:last-child {
+.galeria-introduccion > p {
     max-width: 650px;
 
     margin: 0 auto;
