@@ -481,11 +481,17 @@ footer {
 
     text-align: center;
 
+    border-top: 1px solid rgba(180, 151, 90, 0.25);
+
     color: var(--gris);
 
     font-size: 13px;
 
-    border-top: 1px solid rgba(180, 151, 90, 0.20);
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    margin: 0;
 }
 
 
