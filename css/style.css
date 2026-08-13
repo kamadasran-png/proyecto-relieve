@@ -406,29 +406,44 @@ body {
    ========================= */
 
 .coleccion {
-    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 
-    padding: 80px 30px 100px;
+    padding: 120px 30px 130px;
+
+    text-align: center;
 
     border-top: 1px solid rgba(180, 151, 90, 0.25);
 }
 
-.coleccion h2 {
-    margin: 15px 0;
+.coleccion .etiqueta {
+    margin-bottom: 22px;
+}
 
-    font-size: 38px;
+.coleccion h2 {
+    max-width: 750px;
+
+    margin: 0 auto 28px;
+
+    font-size: clamp(38px, 4.5vw, 58px);
+
+    line-height: 1.12;
 
     font-weight: normal;
+
+    font-style: italic;
 }
 
 .coleccion p:last-child {
-    max-width: 650px;
+    max-width: 620px;
 
-    margin: auto;
+    margin: 0 auto;
 
     color: var(--gris);
 
     font-size: 18px;
+
+    line-height: 1.8;
 }
 
 
