@@ -434,7 +434,7 @@ body {
     font-style: italic;
 }
 
-.coleccion p:last-child {
+.coleccion > p {
     max-width: 620px;
 
     margin: 0 auto;
@@ -445,9 +445,32 @@ body {
 
     line-height: 1.8;
 }
- <a href="galeria.html" class="enlace">
-        EXPLORAR LA COLECCIÓN →
-    </a>
+ .coleccion .enlace {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    color: var(--negro);
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+    border-bottom: 1px solid var(--oro);
+
+    padding-bottom: 6px;
+
+    transition: color 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.coleccion .enlace:hover {
+    color: var(--oro);
+
+    border-color: var(--negro);
+}
 
 /* =========================
    FOOTER
