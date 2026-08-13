@@ -243,7 +243,89 @@ body {
 .hero-contenido {
     transform: translateY(-12px);
 }
+/* ==================================================
+   INTRODUCCIÓN
+================================================== */
 
+.introduccion {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 30px 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.introduccion-texto {
+    max-width: 760px;
+    text-align: center;
+}
+
+
+/* ETIQUETA */
+
+.introduccion .etiqueta {
+    margin: 0 0 22px;
+
+    color: var(--oro);
+
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+/* TITULAR */
+
+.introduccion h2 {
+    margin: 0 0 30px;
+
+    font-size: clamp(38px, 4vw, 56px);
+    line-height: 1.15;
+
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* TEXTO */
+
+.introduccion-texto > p:not(.etiqueta) {
+    max-width: 620px;
+    margin: 0 auto 30px;
+
+    color: #555;
+
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* ENLACE */
+
+.introduccion .enlace {
+    display: inline-block;
+
+    color: var(--negro);
+
+    text-decoration: none;
+
+    font-size: 13px;
+    letter-spacing: 2px;
+
+    border-bottom: 1px solid var(--oro);
+
+    padding-bottom: 6px;
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.introduccion .enlace:hover {
+    color: var(--oro);
+    border-color: var(--negro);
+}
 /* =========================
    SCROLL
    ========================= */
