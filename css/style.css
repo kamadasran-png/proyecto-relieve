@@ -700,3 +700,20 @@ footer p {
     }
 
 }
+    .galeria {
+        padding: 70px 25px 90px;
+    }
+
+    .galeria-cabecera {
+        margin-bottom: 40px;
+    }
+
+    .galeria-cabecera h2 {
+        font-size: 32px;
+    }
+
+    .galeria-grid {
+        grid-template-columns: 1fr;
+
+        gap: 55px;
+    }
