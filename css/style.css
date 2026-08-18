@@ -554,7 +554,88 @@ footer p {
 .galeria-cabecera {
     margin-bottom: 60px;
 }
+/* =========================
+   TARJETA DE OBRA
+   ========================= */
 
+.galeria-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 45px;
+}
+
+.obra-card {
+    margin: 0;
+}
+
+.obra-card > a {
+    display: block;
+
+    overflow: hidden;
+}
+
+.obra-card img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    transition: transform 0.5s ease;
+}
+
+.obra-card > a:hover img {
+    transform: scale(1.03);
+}
+
+.obra-card-info {
+    padding-top: 22px;
+}
+
+.obra-card-titulo {
+    margin: 0 0 8px;
+
+    font-size: 22px;
+
+    letter-spacing: 1px;
+}
+
+.obra-card-datos {
+    margin: 0;
+
+    color: var(--gris);
+
+    font-size: 15px;
+}
+
+.obra-card-info .enlace {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    color: var(--negro);
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    border-bottom: 1px solid var(--oro);
+
+    padding-bottom: 5px;
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.obra-card-info .enlace:hover {
+    color: var(--oro);
+
+    border-color: var(--negro);
+}
 .galeria-cabecera .etiqueta {
     margin-bottom: 18px;
 }
