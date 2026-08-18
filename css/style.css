@@ -565,7 +565,16 @@ footer p {
 
     gap: 45px;
 }
+.obra-card {
+    margin: 0;
+}
 
+.obra-card img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
 .obra-card {
     margin: 0;
 }
