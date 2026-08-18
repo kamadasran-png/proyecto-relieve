@@ -540,7 +540,34 @@ footer p {
 
     line-height: 1.8;
 }
+/* =========================
+   BLOQUE OBRAS
+   ========================= */
 
+.galeria {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 100px 30px 130px;
+}
+
+.galeria-cabecera {
+    margin-bottom: 60px;
+}
+
+.galeria-cabecera .etiqueta {
+    margin-bottom: 18px;
+}
+
+.galeria-cabecera h2 {
+    margin: 0;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    font-weight: normal;
+}
 /* =========================
    MÓVIL
    ========================= */
