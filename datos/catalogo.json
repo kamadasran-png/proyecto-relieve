@@ -1,1 +1,481 @@
-
+{
+  "proyecto": "NICOLETA FILIP ART",
+  "version": 1,
+  "numeracion": "NF-001 → NF-047",
+  "codigo_interno": true,
+  "mostrar_nf_al_publico": false,
+  "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
+  "fuente": "CATALOGO_MAESTRO_NICOLETA_FILIP_ART_NF047_TAXONOMIA.xlsx",
+  "obras": [
+    {
+      "nf": "NF-001",
+      "titulo": "ARMONÍA",
+      "categoria": "Composiciones mixtas",
+      "dimensiones": "30 × 40 cm",
+      "slug": "armonia",
+      "imagen": "imagenes/obras/armonia/armonia.png",
+      "ficha": "obras/armonia.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-002",
+      "titulo": "AMAPOLAS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "amapolas",
+      "imagen": "imagenes/obras/amapolas/amapolas.png",
+      "ficha": "obras/amapolas.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-003",
+      "titulo": "ANÉMOMAS",
+      "categoria": "Floral",
+      "dimensiones": "",
+      "slug": "anemonas",
+      "imagen": "imagenes/obras/anemonas/anemonas.png",
+      "ficha": "obras/anemonas.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-004",
+      "titulo": "ANÉMONAS NARANJAS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "anemonas-naranjas",
+      "imagen": "imagenes/obras/anemonas-naranjas/anemonas-naranjas.png",
+      "ficha": "obras/anemonas-naranjas.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-005",
+      "titulo": "ÁRBOL DE ORO",
+      "categoria": "Paisaje y escenas",
+      "dimensiones": "40 × 60 cm",
+      "slug": "arbol-de-oro",
+      "imagen": "imagenes/obras/arbol-de-oro/arbol-de-oro.png",
+      "ficha": "obras/arbol-de-oro.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-006",
+      "titulo": "BARCO DE ORO",
+      "categoria": "Paisaje y escenas",
+      "dimensiones": "40 × 60 cm",
+      "slug": "barco-de-oro",
+      "imagen": "imagenes/obras/barco-de-oro/barco-de-oro.png",
+      "ficha": "obras/barco-de-oro.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-007",
+      "titulo": "CABAÑA BOSQUE",
+      "categoria": "Paisaje y escenas",
+      "dimensiones": "40 × 60 cm",
+      "slug": "cabana-bosque",
+      "imagen": "imagenes/obras/cabana-bosque/cabana-bosque.png",
+      "ficha": "obras/cabana-bosque.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-008",
+      "titulo": "CABAÑA ORO",
+      "categoria": "Paisaje y escenas",
+      "dimensiones": "40 × 60 cm",
+      "slug": "cabana-oro",
+      "imagen": "imagenes/obras/cabana-oro/cabana-oro.png",
+      "ficha": "obras/cabana-oro.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-009",
+      "titulo": "CABAÑA PLAYA",
+      "categoria": "Paisaje y escenas",
+      "dimensiones": "40 × 60 cm",
+      "slug": "cabana-playa",
+      "imagen": "imagenes/obras/cabana-playa/cabana-playa.png",
+      "ficha": "obras/cabana-playa.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-010",
+      "titulo": "CLEMATIES",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "clematis",
+      "imagen": "imagenes/obras/clematis/clematis.png",
+      "ficha": "obras/clematis.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-011",
+      "titulo": "COSMOS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "cosmos",
+      "imagen": "imagenes/obras/cosmos/cosmos.png",
+      "ficha": "obras/cosmos.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-012",
+      "titulo": "CRISANTEMOS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "crisantemos",
+      "imagen": "imagenes/obras/crisantemos/crisantemos.png",
+      "ficha": "obras/crisantemos.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-013",
+      "titulo": "DIENTE DE LEÓN",
+      "categoria": "Floral",
+      "dimensiones": "30 × 50 cm",
+      "slug": "diente-de-leon",
+      "imagen": "imagenes/obras/diente-de-leon/diente-de-leon.png",
+      "ficha": "obras/diente-de-leon.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-014",
+      "titulo": "FLOR DE CAMPO",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "flor-de-campo",
+      "imagen": "imagenes/obras/flor-de-campo/flor-de-campo.png",
+      "ficha": "obras/flor-de-campo.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-015",
+      "titulo": "GAZANIA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "gazania",
+      "imagen": "imagenes/obras/gazania/gazania.png",
+      "ficha": "obras/gazania.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-016",
+      "titulo": "GUITARRA",
+      "categoria": "Objetos y símbolos",
+      "dimensiones": "50 × 50 cm",
+      "slug": "guitarra",
+      "imagen": "imagenes/obras/guitarra/guitarra.png",
+      "ficha": "obras/guitarra.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-017",
+      "titulo": "LIRIOS NARANJA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "lirios-naranja",
+      "imagen": "imagenes/obras/lirios-naranja/lirios-naranja.png",
+      "ficha": "obras/lirios-naranja.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-018",
+      "titulo": "LIRIOS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "lirios",
+      "imagen": "imagenes/obras/lirios/lirios.png",
+      "ficha": "obras/lirios.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-019",
+      "titulo": "MAGNOLIAS2",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "magnolias2",
+      "imagen": "imagenes/obras/magnolias2/magnolias2.png",
+      "ficha": "obras/magnolias2.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-020",
+      "titulo": "MAGNOLIAS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "magnolias",
+      "imagen": "imagenes/obras/magnolias/magnolias.png",
+      "ficha": "obras/magnolias.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-021",
+      "titulo": "MAGNOLIAS1",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "magnolias1",
+      "imagen": "imagenes/obras/magnolias1/magnolias1.png",
+      "ficha": "obras/magnolias1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-022",
+      "titulo": "METAMORFOSIS",
+      "categoria": "Composiciones mixtas",
+      "dimensiones": "30 × 40 cm",
+      "slug": "metamorfosis",
+      "imagen": "imagenes/obras/metamorfosis/metamorfosis.png",
+      "ficha": "obras/metamorfosis.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-023",
+      "titulo": "METAMORFOSIS1",
+      "categoria": "Composiciones mixtas",
+      "dimensiones": "50 × 50 cm",
+      "slug": "metamorfosis1",
+      "imagen": "imagenes/obras/metamorfosis1/metamorfosis1.png",
+      "ficha": "obras/metamorfosis1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-024",
+      "titulo": "PAVO REAL",
+      "categoria": "Fauna",
+      "dimensiones": "40 × 60 cm",
+      "slug": "pavo-real",
+      "imagen": "imagenes/obras/pavo-real/pavo-real.png",
+      "ficha": "obras/pavo-real.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-025",
+      "titulo": "PEONIA BRILLANTE",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "peonia-brillante",
+      "imagen": "imagenes/obras/peonia-brillante/peonia-brillante.png",
+      "ficha": "obras/peonia-brillante.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-026",
+      "titulo": "PEONIA DORADA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "peonia-dorada",
+      "imagen": "imagenes/obras/peonia-dorada/peonia-dorada.png",
+      "ficha": "obras/peonia-dorada.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-027",
+      "titulo": "PEONIA LIMÓN",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "peonia-limon",
+      "imagen": "imagenes/obras/peonia-limon/peonia-limon.png",
+      "ficha": "obras/peonia-limon.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-028",
+      "titulo": "PEONIA MORADA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "peonia-morada",
+      "imagen": "imagenes/obras/peonia-morada/peonia-morada.png",
+      "ficha": "obras/peonia-morada.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-029",
+      "titulo": "PEONIA PERLA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "peonia-perla",
+      "imagen": "imagenes/obras/peonia-perla/peonia-perla.png",
+      "ficha": "obras/peonia-perla.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-030",
+      "titulo": "PLANTA TROPICAL",
+      "categoria": "Botánica",
+      "dimensiones": "40 × 60 cm",
+      "slug": "planta-tropical",
+      "imagen": "imagenes/obras/planta-tropical/planta-tropical.png",
+      "ficha": "obras/planta-tropical.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-031",
+      "titulo": "PLUMERIA BLANCA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "plumeria-blanca",
+      "imagen": "imagenes/obras/plumeria-blanca/plumeria-blanca.png",
+      "ficha": "obras/plumeria-blanca.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-032",
+      "titulo": "PLUMERIAS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "plumerias",
+      "imagen": "imagenes/obras/plumerias/plumerias.png",
+      "ficha": "obras/plumerias.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-033",
+      "titulo": "ROSA MOSQUETA",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "rosa-mosqueta",
+      "imagen": "imagenes/obras/rosa-mosqueta/rosa-mosqueta.png",
+      "ficha": "obras/rosa-mosqueta.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-034",
+      "titulo": "ROSA MOSQUETA 1",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "rosa-mosqueta1",
+      "imagen": "imagenes/obras/rosa-mosqueta1/rosa-mosqueta1.png",
+      "ficha": "obras/rosa-mosqueta1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-035",
+      "titulo": "ROSAS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "rosas",
+      "imagen": "imagenes/obras/rosas/rosas.png",
+      "ficha": "obras/rosas.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-036",
+      "titulo": "PEONIA 1",
+      "categoria": "Floral",
+      "dimensiones": "30 × 40 cm",
+      "slug": "peonia1",
+      "imagen": "imagenes/obras/peonia1/peonia1.png",
+      "ficha": "obras/peonia1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-037",
+      "titulo": "PEONIA",
+      "categoria": "Floral",
+      "dimensiones": "30 × 40 cm",
+      "slug": "peonia",
+      "imagen": "imagenes/obras/peonia/peonia.png",
+      "ficha": "obras/peonia.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-038",
+      "titulo": "MOTIVO FLORAL",
+      "categoria": "Floral",
+      "dimensiones": "30 × 40 cm",
+      "slug": "motivo-floral",
+      "imagen": "imagenes/obras/motivo-floral/motivo-floral.png",
+      "ficha": "obras/motivo-floral.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-039",
+      "titulo": "MAGNOLIAS",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "magnolias-1",
+      "imagen": "imagenes/obras/magnolias-1/magnolias-1.png",
+      "ficha": "obras/magnolias-1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-040",
+      "titulo": "AMAPOLAS",
+      "categoria": "Floral",
+      "dimensiones": "30 × 40 cm",
+      "slug": "amapolas-1",
+      "imagen": "imagenes/obras/amapolas-1/amapolas-1.png",
+      "ficha": "obras/amapolas-1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-041",
+      "titulo": "ÁGUILA",
+      "categoria": "Fauna",
+      "dimensiones": "30 × 40 cm",
+      "slug": "aguila",
+      "imagen": "imagenes/obras/aguila/aguila.png",
+      "ficha": "obras/aguila.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-042",
+      "titulo": "FÉNIX",
+      "categoria": "Fauna",
+      "dimensiones": "30 × 40 cm",
+      "slug": "fenix",
+      "imagen": "imagenes/obras/fenix/fenix.png",
+      "ficha": "obras/fenix.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-043",
+      "titulo": "HOJAS TROPICALES",
+      "categoria": "Botánica",
+      "dimensiones": "30 × 40 cm",
+      "slug": "hojas-tropicales",
+      "imagen": "imagenes/obras/hojas-tropicales/hojas-tropicales.png",
+      "ficha": "obras/hojas-tropicales.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-044",
+      "titulo": "LIENZO FLORAL",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "lienzo-floral",
+      "imagen": "imagenes/obras/lienzo-floral/lienzo-floral.png",
+      "ficha": "obras/lienzo-floral.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-045",
+      "titulo": "LIENZO FLORAL 1",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "lienzo-floral1",
+      "imagen": "imagenes/obras/lienzo-floral1/lienzo-floral1.png",
+      "ficha": "obras/lienzo-floral1.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-046",
+      "titulo": "LIENZO FLORAL 2",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "lienzo-floral2",
+      "imagen": "imagenes/obras/lienzo-floral2/lienzo-floral2.png",
+      "ficha": "obras/lienzo-floral2.html",
+      "estado": "pendiente"
+    },
+    {
+      "nf": "NF-047",
+      "titulo": "CRISANTEMOS 1",
+      "categoria": "Floral",
+      "dimensiones": "40 × 60 cm",
+      "slug": "crisantemos1",
+      "imagen": "imagenes/obras/crisantemos1/crisantemos1.png",
+      "ficha": "obras/crisantemos1.html",
+      "estado": "pendiente"
+    }
+  ]
+}
