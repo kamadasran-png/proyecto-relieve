@@ -38,15 +38,15 @@
   "estado": "publicada"
 },
     {
-      "nf": "NF-004",
-      "titulo": "ANÉMONAS NARANJAS",
-      "categoria": "Floral",
-      "dimensiones": "40 × 60 cm",
-      "slug": "anemonas-naranjas",
-      "imagen": "imagenes/obras/anemonas-naranjas/anemonas-naranjas.png",
-      "ficha": "obras/anemonas-naranjas.html",
-      "estado": "pendiente"
-    },
+  "nf": "NF-004",
+  "titulo": "ANÉMONAS NARANJAS",
+  "categoria": "Floral",
+  "dimensiones": "40 × 60 cm",
+  "slug": "anemonas-naranjas",
+  "imagen": "imagenes/obras/anemonas-naranjas.jpg",
+  "ficha": "obras/anemonas-naranjas.html",
+  "estado": "pendiente"
+},
     {
       "nf": "NF-005",
       "titulo": "ÁRBOL DE ORO",
