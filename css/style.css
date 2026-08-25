@@ -1,7 +1,7 @@
 /* ==================================================
    NICOLETA FILIP ART
    PROYECTO RELIEVE
-   V1.1 — MUSEO DIGITAL OFICIAL
+   V1.2 — MUSEO DIGITAL OFICIAL
    ================================================== */
 
 
@@ -48,7 +48,7 @@ body {
 
 /* =========================
    CABECERA
-========================= */
+   ========================= */
 
 .cabecera {
     width: 100%;
@@ -58,7 +58,7 @@ body {
 
 .cabecera-contenedor {
     max-width: 1200px;
-    height: 150px;
+    min-height: 150px;
     margin: 0 auto;
     padding: 18px 30px;
 
@@ -72,7 +72,7 @@ body {
 
 /* =========================
    LOGOTIPO
-========================= */
+   ========================= */
 
 .logotipo {
     display: flex;
@@ -91,7 +91,7 @@ body {
 
 /* =========================
    MENÚ
-========================= */
+   ========================= */
 
 .menu-navegacion {
     display: flex;
@@ -110,7 +110,15 @@ body {
     color: var(--negro);
 
     font-size: 16px;
+
+    transition: color 0.3s ease;
 }
+
+.menu-navegacion a:hover {
+    color: var(--oro);
+}
+
+
 /* =========================
    HERO
    ========================= */
@@ -140,7 +148,9 @@ body {
 }
 
 
-/* CONTENIDO HERO */
+/* =========================
+   CONTENIDO HERO
+   ========================= */
 
 .hero-contenido {
     max-width: 1200px;
@@ -148,10 +158,14 @@ body {
 
     margin: 0 auto;
     padding: 80px 60px;
+
+    transform: translateY(-12px);
 }
 
 
-/* ETIQUETA */
+/* =========================
+   ETIQUETA
+   ========================= */
 
 .hero-etiqueta,
 .etiqueta {
@@ -164,7 +178,7 @@ body {
 
 /* =========================
    TITULO HERO
-========================= */
+   ========================= */
 
 .hero h1 {
     margin: 18px 0 25px;
@@ -179,7 +193,9 @@ body {
 }
 
 
-/* LINEA */
+/* =========================
+   LINEA
+   ========================= */
 
 .linea-oro {
     width: 245px;
@@ -191,7 +207,9 @@ body {
 }
 
 
-/* TEXTO HERO */
+/* =========================
+   TEXTO HERO
+   ========================= */
 
 .hero-texto {
     max-width: 560px;
@@ -203,7 +221,9 @@ body {
 }
 
 
-/* BOTÓN */
+/* =========================
+   BOTÓN
+   ========================= */
 
 .boton-oro,
 .boton {
@@ -238,11 +258,7 @@ body {
     background: var(--oro);
     color: var(--blanco);
 }
-/* AJUSTE VERTICAL DEL CONTENIDO HERO */
 
-.hero-contenido {
-    transform: translateY(-12px);
-}
 
 /* =========================
    SCROLL
@@ -275,7 +291,7 @@ body {
 
 /* ==================================================
    INTRODUCCIÓN
-================================================== */
+   ================================================== */
 
 .introduccion {
     max-width: 1200px;
@@ -339,7 +355,15 @@ body {
         border-color 0.3s ease;
 }
 
-/* OBRA DESTACADA */
+.introduccion .enlace:hover {
+    color: var(--oro);
+    border-color: var(--negro);
+}
+
+
+/* =========================
+   OBRA DESTACADA
+   ========================= */
 
 .obra-destacada {
     max-width: 1100px;
@@ -354,7 +378,9 @@ body {
 }
 
 
-/* IMAGEN */
+/* =========================
+   IMAGEN OBRA DESTACADA
+   ========================= */
 
 .obra-imagen {
     display: flex;
@@ -369,11 +395,14 @@ body {
 }
 
 
-/* INFORMACIÓN */
+/* =========================
+   INFORMACIÓN OBRA
+   ========================= */
 
 .obra-info {
     max-width: 430px;
 }
+
 .obra-info .etiqueta {
     margin-bottom: 25px;
 }
@@ -401,6 +430,8 @@ body {
     font-weight: normal;
     letter-spacing: 1px;
 }
+
+
 /* =========================
    COLECCIÓN
    ========================= */
@@ -445,7 +476,8 @@ body {
 
     line-height: 1.8;
 }
- .coleccion .enlace {
+
+.coleccion .enlace {
     display: inline-block;
 
     margin-top: 30px;
@@ -462,36 +494,15 @@ body {
 
     padding-bottom: 6px;
 
-    transition: color 0.3s ease,
-                border-color 0.3s ease;
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease;
 }
 
 .coleccion .enlace:hover {
     color: var(--oro);
 
     border-color: var(--negro);
-}
-
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
-    padding: 45px 30px;
-
-    text-align: center;
-
-    border-top: 1px solid rgba(180, 151, 90, 0.25);
-
-    color: var(--gris);
-
-    font-size: 13px;
-
-    letter-spacing: 0.5px;
-}
-
-footer p {
-    margin: 0;
 }
 
 
@@ -540,12 +551,15 @@ footer p {
 
     line-height: 1.8;
 }
+
+
 /* =========================
    BLOQUE OBRAS
    ========================= */
 
 .galeria {
     max-width: 1200px;
+
     margin: 0 auto;
 
     padding: 100px 30px 130px;
@@ -554,6 +568,22 @@ footer p {
 .galeria-cabecera {
     margin-bottom: 60px;
 }
+
+.galeria-cabecera .etiqueta {
+    margin-bottom: 18px;
+}
+
+.galeria-cabecera h2 {
+    margin: 0;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    font-weight: normal;
+}
+
+
 /* =========================
    GALERÍA · CUADRÍCULA
    ========================= */
@@ -570,20 +600,14 @@ footer p {
     margin: 0 auto;
 }
 
+
+/* =========================
+   TARJETA OBRA
+   ========================= */
+
 .obra-card {
     width: 100%;
     max-width: 350px;
-
-    margin: 0;
-}
-
-.obra-card img {
-    display: block;
-
-    width: 100%;
-    height: auto;
-}
-.obra-card {
     margin: 0;
 }
 
@@ -605,6 +629,11 @@ footer p {
 .obra-card > a:hover img {
     transform: scale(1.03);
 }
+
+
+/* =========================
+   INFORMACIÓN TARJETA
+   ========================= */
 
 .obra-card-info {
     padding-top: 22px;
@@ -653,43 +682,85 @@ footer p {
 
     border-color: var(--negro);
 }
-.galeria-cabecera .etiqueta {
-    margin-bottom: 18px;
-}
 
-.galeria-cabecera h2 {
-    margin: 0;
 
-    font-size: 42px;
-
-    line-height: 1.2;
-
-    font-weight: normal;
-}
 /* =========================
-   MÓVIL
+   FOOTER
    ========================= */
+
+footer {
+    padding: 45px 30px;
+
+    text-align: center;
+
+    border-top: 1px solid rgba(180, 151, 90, 0.25);
+
+    color: var(--gris);
+
+    font-size: 13px;
+
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* ==================================================
+   RESPONSIVE
+   ================================================== */
 
 @media (max-width: 768px) {
 
-    .cabecera {
-        padding-top: 25px;
+    /* CABECERA */
+
+    .cabecera-contenedor {
+        min-height: auto;
+
+        padding: 25px 20px;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        gap: 22px;
     }
 
-    .logo {
-        width: 300px;
+    .logotipo {
+        justify-content: center;
     }
 
-    .menu {
-        gap: 18px;
+    .logotipo img {
+        width: 180px;
+        max-height: 100px;
     }
 
-    .menu a {
+    .menu-navegacion {
+        width: 100%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 12px 18px;
+    }
+
+    .menu-navegacion a {
         font-size: 14px;
     }
 
+
+    /* HERO */
+
     .hero {
         min-height: 560px;
+
+        margin-top: 20px;
+
+        background-position: center;
     }
 
     .hero-contenido {
@@ -700,9 +771,15 @@ footer p {
         font-size: 44px;
     }
 
+
+    /* INTRODUCCIÓN */
+
     .introduccion {
         padding: 70px 25px;
     }
+
+
+    /* OBRA DESTACADA */
 
     .obra-destacada {
         grid-template-columns: 1fr;
@@ -712,11 +789,40 @@ footer p {
         gap: 40px;
     }
 
+    .obra-info {
+        max-width: none;
+    }
+
+    .obra-info h2 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+
+
+    /* COLECCIÓN */
+
     .coleccion {
         padding: 70px 25px;
     }
 
-}
+
+    /* INTRODUCCIÓN GALERÍA */
+
+    .galeria-introduccion {
+        padding: 80px 25px 65px;
+    }
+
+    .galeria-introduccion h1 {
+        font-size: 46px;
+    }
+
+    .galeria-introduccion > p {
+        font-size: 17px;
+    }
+
+
+    /* GALERÍA */
+
     .galeria {
         padding: 70px 25px 90px;
     }
@@ -734,3 +840,9 @@ footer p {
 
         gap: 55px;
     }
+
+    .obra-card {
+        max-width: 100%;
+    }
+
+}
