@@ -212,48 +212,38 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     try {
 
-        const respuesta = await fetch("./datos/catalogo.json");
+    const respuesta = await fetch("./datos/catalogo.json");
 
-if (!respuesta.ok) {
-    throw new Error(
-        "HTTP " + respuesta.status +
-        " — " + respuesta.statusText
-    );
-}
-
-const catalogo = await respuesta.json();
-
-if (!catalogo.obras || !Array.isArray(catalogo.obras)) {
-    throw new Error(
-        "El catálogo no contiene un array 'obras'."
-    );
-}
-
-obras = catalogo.obras;
-
-generarGaleria(obras);
-
-        if (!respuesta.ok) {
-            throw new Error("No se pudo cargar el catálogo.");
-        }
-
-        const catalogo = await respuesta.json();
-
-        obras = catalogo.obras;
-
-        generarGaleria(obras);
-
-    } catch (error) {
-
-        console.error("Error cargando catalogo.json:", error);
-
-        contenedor.innerHTML = `
-            <p class="galeria-error">
-                No se ha podido cargar la colección.
-            </p>
-        `;
-
+    if (!respuesta.ok) {
+        throw new Error(
+            "HTTP " + respuesta.status +
+            " — " + respuesta.statusText
+        );
     }
+
+    const catalogo = await respuesta.json();
+
+    if (!catalogo.obras || !Array.isArray(catalogo.obras)) {
+        throw new Error(
+            "El catálogo no contiene un array 'obras'."
+        );
+    }
+
+    obras = catalogo.obras;
+
+    generarGaleria(obras);
+
+} catch (error) {
+
+    console.error("Error cargando catalogo.json:", error);
+
+    contenedor.innerHTML = `
+        <p class="galeria-error">
+            No se ha podido cargar la colección.
+        </p>
+    `;
+
+}
 
 
     /* ==================================================
