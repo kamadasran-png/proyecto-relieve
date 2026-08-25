@@ -395,14 +395,18 @@ generarGaleria(obras);
 
     function normalizarCategoria(categoria) {
 
-        return categoria
-            .toLowerCase()
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .replace(/\s+y\s+/g, "-")
-            .replace(/\s+/g, "-");
-
+    if (!categoria || typeof categoria !== "string") {
+        return "";
     }
+
+    return categoria
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+y\s+/g, "-")
+        .replace(/\s+/g, "-");
+
+}
 
 });
 
