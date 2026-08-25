@@ -28,15 +28,15 @@
       "estado": "publicada"
     },
     {
-      "nf": "NF-003",
-      "titulo": "ANÉMOMAS",
-      "categoria": "Floral",
-      "dimensiones": "30 x 40 cm",
-      "slug": "anemonas",
-      "imagen": "imagenes/obras/anemonas.png",
-      "ficha": "obras/anemonas.html",
-      "estado": "publicada"
-    },
+  "nf": "NF-003",
+  "titulo": "ANÉMOMAS",
+  "categoria": "Floral",
+  "dimensiones": "30 × 40 cm",
+  "slug": "anemonas",
+  "imagen": "imagenes/obras/anemonas.jpg",
+  "ficha": "obras/anemonas.html",
+  "estado": "publicada"
+},
     {
       "nf": "NF-004",
       "titulo": "ANÉMONAS NARANJAS",
