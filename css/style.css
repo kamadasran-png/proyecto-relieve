@@ -846,3 +846,165 @@ footer p {
     }
 
 }
+/* ==================================================
+   FICHA INDIVIDUAL DE OBRA
+   NICOLETA FILIP ART
+   ================================================== */
+
+.obra-detalle {
+    width: min(1200px, 92%);
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: 70px;
+    align-items: start;
+}
+
+
+/* IMAGEN */
+
+.obra-detalle-imagen {
+    width: 100%;
+}
+
+.obra-detalle-imagen img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 850px;
+    object-fit: contain;
+}
+
+
+/* INFORMACIÓN */
+
+.obra-detalle-info {
+    padding-top: 10px;
+}
+
+.obra-detalle-info h1 {
+    margin: 10px 0 22px;
+}
+
+.obra-detalle-introduccion {
+    font-size: 1.08rem;
+    line-height: 1.7;
+    margin-bottom: 45px;
+}
+
+
+/* SECCIONES */
+
+.obra-detalle-seccion {
+    margin-top: 40px;
+}
+
+.obra-detalle-seccion h2 {
+    margin-bottom: 18px;
+}
+
+.obra-detalle-seccion p {
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+
+/* FICHA TÉCNICA */
+
+.obra-ficha-tecnica {
+    margin: 0;
+}
+
+.obra-ficha-tecnica > div {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.obra-ficha-tecnica dt {
+    font-weight: 600;
+}
+
+.obra-ficha-tecnica dd {
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* SOLICITAR INFORMACIÓN */
+
+.obra-detalle-contacto {
+    margin-top: 45px;
+}
+
+.boton-oro {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 24px;
+    text-decoration: none;
+}
+
+.boton-oro span {
+    font-size: 1.1rem;
+}
+
+
+/* NAVEGACIÓN */
+
+.obra-navegacion {
+    width: min(1200px, 92%);
+    margin: 20px auto 80px;
+    text-align: center;
+}
+
+.obra-navegacion-centro {
+    text-decoration: none;
+}
+
+
+/* ==================================================
+   ADAPTACIÓN MÓVIL
+   ================================================== */
+
+@media (max-width: 800px) {
+
+    .obra-detalle {
+        width: 90%;
+        margin: 45px auto;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .obra-detalle-info {
+        padding-top: 0;
+    }
+
+    .obra-detalle-info h1 {
+        margin-top: 5px;
+    }
+
+    .obra-detalle-introduccion {
+        margin-bottom: 30px;
+    }
+
+    .obra-detalle-seccion {
+        margin-top: 30px;
+    }
+
+    .obra-ficha-tecnica > div {
+        grid-template-columns: 110px 1fr;
+        gap: 15px;
+    }
+
+    .obra-detalle-contacto {
+        margin-top: 35px;
+    }
+
+    .obra-navegacion {
+        margin-bottom: 55px;
+    }
+
+}
