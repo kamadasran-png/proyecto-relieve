@@ -1008,3 +1008,154 @@ footer p {
     }
 
 }
+/* ==================================================
+   GALERÍA — FILTROS
+   ================================================== */
+
+.galeria-filtros {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: 30px 0 45px;
+
+}
+
+
+.galeria-filtros button {
+
+    appearance: none;
+
+    border: 1px solid #d8d2c8;
+
+    background: transparent;
+
+    color: #333;
+
+    padding: 10px 18px;
+
+    font-family: inherit;
+
+    font-size: 0.85rem;
+
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+
+}
+
+
+.galeria-filtros button:hover {
+
+    border-color: #222;
+
+}
+
+
+.galeria-filtros button.filtro-activo {
+
+    background: #222;
+
+    color: #fff;
+
+    border-color: #222;
+
+}
+
+
+/* ==================================================
+   GALERÍA — PLACEHOLDERS
+   ================================================== */
+
+.obra-card-placeholder {
+
+    width: 100%;
+
+    aspect-ratio: 2 / 3;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 25px;
+
+    box-sizing: border-box;
+
+    background: #f2f0ec;
+
+    color: #777;
+
+    font-size: 0.78rem;
+
+    letter-spacing: 0.12em;
+
+    text-transform: uppercase;
+
+}
+
+
+/* ==================================================
+   GALERÍA — INTERACCIÓN
+   ================================================== */
+
+.obra-card {
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.obra-card a {
+
+    text-decoration: none;
+
+}
+
+
+/* ==================================================
+   GALERÍA — MÓVIL
+   ================================================== */
+
+@media (max-width: 700px) {
+
+    .galeria-filtros {
+
+        gap: 8px;
+
+        margin-top: 25px;
+
+        margin-bottom: 35px;
+
+    }
+
+
+    .galeria-filtros button {
+
+        padding: 9px 13px;
+
+        font-size: 0.78rem;
+
+    }
+
+
+    .obra-card-placeholder {
+
+        aspect-ratio: 2 / 3;
+
+        font-size: 0.72rem;
+
+    }
+
+}
