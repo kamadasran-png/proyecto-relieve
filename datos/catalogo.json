@@ -48,15 +48,15 @@
   "estado": "publicada"
 },
     {
-      "nf": "NF-005",
-      "titulo": "ÁRBOL DE ORO",
-      "categoria": "Paisaje y escenas",
-      "dimensiones": "40 × 60 cm",
-      "slug": "arbol-de-oro",
-      "imagen": "imagenes/obras/arbol-de-oro/arbol-de-oro.png",
-      "ficha": "obras/arbol-de-oro.html",
-      "estado": "pendiente"
-    },
+  "nf": "NF-005",
+  "titulo": "ÁRBOL DE ORO",
+  "categoria": "Paisaje y escenas",
+  "dimensiones": "40 × 60 cm",
+  "slug": "arbol-de-oro",
+  "imagen": "imagenes/obras/arbol-de-oro.jpg",
+  "ficha": "obras/arbol-de-oro.html",
+  "estado": "publicada"
+},
     {
       "nf": "NF-006",
       "titulo": "BARCO DE ORO",
