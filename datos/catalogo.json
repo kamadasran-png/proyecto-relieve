@@ -243,9 +243,9 @@
       "categoria": "Fauna",
       "dimensiones": "40 × 60 cm",
       "slug": "pavo-real",
-      "imagen": "imagenes/obras/pavo-real/pavo-real.png",
+      "imagen": "imagenes/obras/pavo-real.jpg",
       "ficha": "obras/pavo-real.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-025",
