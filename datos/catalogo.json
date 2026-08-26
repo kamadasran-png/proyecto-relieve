@@ -219,23 +219,23 @@
     },
     {
       "nf": "NF-022",
-      "titulo": "METAMORFOSIS",
+      "titulo": "METAMORFOSIS1",
       "categoria": "Composiciones mixtas",
       "dimensiones": "30 × 40 cm",
       "slug": "metamorfosis",
-      "imagen": "imagenes/obras/metamorfosis.jpg",
-      "ficha": "obras/metamorfosis.html",
+      "imagen": "imagenes/obras/metamorfosis1.jpg",
+      "ficha": "obras/metamorfosis1.html",
       "estado": "publicada"
     },
     {
       "nf": "NF-023",
-      "titulo": "METAMORFOSIS1",
+      "titulo": "METAMORFOSIS",
       "categoria": "Composiciones mixtas",
       "dimensiones": "50 × 50 cm",
       "slug": "metamorfosis1",
-      "imagen": "imagenes/obras/metamorfosis1/metamorfosis1.png",
-      "ficha": "obras/metamorfosis1.html",
-      "estado": "pendiente"
+      "imagen": "imagenes/obras/metamorfosis.jpg",
+      "ficha": "obras/metamorfosis.html",
+      "estado": "publicada"
     },
     {
       "nf": "NF-024",
