@@ -353,9 +353,9 @@
       "categoria": "Floral",
       "dimensiones": "40 × 60 cm",
       "slug": "rosas",
-      "imagen": "imagenes/obras/rosas/rosas.png",
+      "imagen": "imagenes/obras/rosas.jpg",
       "ficha": "obras/rosas.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-036",
