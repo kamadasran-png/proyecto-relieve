@@ -203,9 +203,9 @@
       "categoria": "Floral",
       "dimensiones": "40 × 60 cm",
       "slug": "magnolias",
-      "imagen": "imagenes/obras/magnolias/magnolias.png",
+      "imagen": "imagenes/obras/magnolias.jpg",
       "ficha": "obras/magnolias.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-021",
