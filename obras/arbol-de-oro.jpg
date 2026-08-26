@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ÁRBOL DE ORO | Nicoleta Filip Art</title>
+
+    <meta
+        name="description"
+        content="ÁRBOL DE ORO. Obra original en relieve de Nicoleta Filip Art, realizada sobre madera en 40 × 60 cm."
+    >
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="cabecera">
+
+    <div class="cabecera-contenedor">
+
+        <a href="../index.html" class="logotipo">
+
+            <img
+                src="../imagenes/iconos/logo-nicoleta-filip.png"
+                alt="Nicoleta Filip Art - Museo Digital Oficial">
+
+        </a>
+
+
+        <nav class="menu-navegacion">
+
+            <a href="../index.html">
+                Inicio
+            </a>
+
+            <a href="../galeria.html">
+                Colección
+            </a>
+
+            <a href="../artista.html">
+                La artista
+            </a>
+
+            <a href="../tecnicas.html">
+                Técnicas
+            </a>
+
+            <a href="../blog.html">
+                Blog
+            </a>
+
+            <a href="../contacto.html">
+                Contacto
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<section class="obra-detalle">
+
+
+    <!-- IMAGEN -->
+
+    <div class="obra-detalle-imagen">
+
+        <img
+            src="../imagenes/obras/arbol-de-oro.jpg"
+            alt="ÁRBOL DE ORO - Obra original en relieve de Nicoleta Filip Art">
+
+    </div>
+
+
+    <!-- INFORMACIÓN -->
+
+    <div class="obra-detalle-info">
+
+
+        <p class="etiqueta">
+            NICOLETA FILIP ART
+        </p>
+
+
+        <h1>
+            ÁRBOL DE ORO
+        </h1>
+
+
+        <p class="obra-detalle-introduccion">
+
+            Composición paisajística en relieve donde el árbol
+            se convierte en elemento protagonista mediante
+            el volumen, la textura y los matices dorados.
+
+        </p>
+
+
+        <!-- SOBRE LA OBRA -->
+
+        <section class="obra-detalle-seccion">
+
+            <h2>
+                Sobre la obra
+            </h2>
+
+            <p>
+
+                ÁRBOL DE ORO presenta una composición inspirada
+                en el paisaje, trabajada mediante formas
+                volumétricas que aportan profundidad y presencia
+                a la escena.
+
+            </p>
+
+            <p>
+
+                El tratamiento de la superficie y los matices
+                metalizados permiten que la luz transforme
+                visualmente el relieve según el punto de
+                observación.
+
+            </p>
+
+        </section>
+
+
+        <!-- PRESENTACIÓN ARTÍSTICA -->
+
+        <section class="obra-detalle-seccion">
+
+            <h2>
+                Presentación artística
+            </h2>
+
+            <p>
+
+                La obra combina relieve, textura y color para
+                construir una interpretación ornamental del
+                paisaje. El acabado dorado aporta luminosidad
+                y refuerza el carácter protagonista del árbol.
+
+            </p>
+
+        </section>
+
+
+        <!-- FICHA TÉCNICA -->
+
+        <section class="obra-detalle-seccion">
+
+            <h2>
+                Ficha técnica
+            </h2>
+
+
+            <dl class="obra-ficha-tecnica">
+
+
+                <div>
+
+                    <dt>
+                        Año
+                    </dt>
+
+                    <dd>
+                        2026
+                    </dd>
+
+                </div>
+
+
+                <div>
+
+                    <dt>
+                        Dimensiones
+                    </dt>
+
+                    <dd>
+                        40 × 60 cm
+                    </dd>
+
+                </div>
+
+
+                <div>
+
+                    <dt>
+                        Soporte
+                    </dt>
+
+                    <dd>
+                        Madera
+                    </dd>
+
+                </div>
+
+
+                <div>
+
+                    <dt>
+                        Técnica
+                    </dt>
+
+                    <dd>
+                        Técnica estándar de pasta de relieve,
+                        pintura acrílica, aerosol metalizado
+                        y barniz protector.
+                    </dd>
+
+                </div>
+
+
+                <div>
+
+                    <dt>
+                        Categoría
+                    </dt>
+
+                    <dd>
+                        Paisaje y escenas
+                    </dd>
+
+                </div>
+
+
+            </dl>
+
+        </section>
+
+
+        <!-- INFORMACIÓN -->
+
+        <section class="obra-detalle-contacto">
+
+            <p>
+
+                Si deseas recibir información sobre esta obra,
+                puedes solicitarla directamente.
+
+            </p>
+
+
+            <a
+                href="../contacto.html"
+                class="boton-oro">
+
+                <span>
+                    SOLICITAR INFORMACIÓN
+                </span>
+
+                →
+
+            </a>
+
+        </section>
+
+
+    </div>
+
+</section>
+
+
+<!-- NAVEGACIÓN -->
+
+<section class="obra-navegacion">
+
+    <a
+        href="../galeria.html"
+        class="obra-navegacion-centro enlace">
+
+        ← VOLVER A LA COLECCIÓN
+
+    </a>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 NICOLETA FILIP ART · MUSEO DIGITAL OFICIAL
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
