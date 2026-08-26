@@ -399,13 +399,13 @@
     },
     {
       "nf": "NF-040",
-      "titulo": "AMAPOLAS",
+      "titulo": "AMAPOLAS1",
       "categoria": "Floral",
       "dimensiones": "30 × 40 cm",
       "slug": "amapolas-1",
-      "imagen": "imagenes/obras/amapolas-1/amapolas-1.png",
-      "ficha": "obras/amapolas-1.html",
-      "estado": "pendiente"
+      "imagen": "imagenes/obras/amapolas1.jpg",
+      "ficha": "obras/amapolas1.html",
+      "estado": "publicada"
     },
     {
       "nf": "NF-041",
