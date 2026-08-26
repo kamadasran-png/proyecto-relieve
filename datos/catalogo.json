@@ -163,9 +163,9 @@
       "categoria": "Objetos y símbolos",
       "dimensiones": "50 × 50 cm",
       "slug": "guitarra",
-      "imagen": "imagenes/obras/guitarra/guitarra.png",
+      "imagen": "imagenes/obras/guitarra.jpg",
       "ficha": "obras/guitarra.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-017",
