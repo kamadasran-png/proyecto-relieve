@@ -143,9 +143,9 @@
       "categoria": "Floral",
       "dimensiones": "40 × 60 cm",
       "slug": "flor-de-campo",
-      "imagen": "imagenes/obras/flor-de-campo/flor-de-campo.png",
+      "imagen": "imagenes/obras/flor-de-campo.jpg",
       "ficha": "obras/flor-de-campo.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-015",
