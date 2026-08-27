@@ -423,9 +423,9 @@
       "categoria": "Fauna",
       "dimensiones": "30 × 40 cm",
       "slug": "fenix",
-      "imagen": "imagenes/obras/fenix/fenix.png",
+      "imagen": "imagenes/obras/fenix.jpg",
       "ficha": "obras/fenix.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-043",
