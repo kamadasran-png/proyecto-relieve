@@ -473,9 +473,9 @@
       "categoria": "Floral",
       "dimensiones": "40 × 60 cm",
       "slug": "crisantemos1",
-      "imagen": "imagenes/obras/crisantemos1/crisantemos1.png",
+      "imagen": "imagenes/obras/crisantemos1.jpg",
       "ficha": "obras/crisantemos1.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     }
   ]
 }
