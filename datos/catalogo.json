@@ -443,9 +443,9 @@
       "categoria": "Floral",
       "dimensiones": "40 × 60 cm",
       "slug": "lienzo-floral",
-      "imagen": "imagenes/obras/lienzo-floral/lienzo-floral.png",
+      "imagen": "imagenes/obras/lienzo-floral.jpg",
       "ficha": "obras/lienzo-floral.html",
-      "estado": "pendiente"
+      "estado": "publicada"
     },
     {
       "nf": "NF-045",
