@@ -487,5 +487,15 @@
       "ficha": "obras/aguila2.html",
       "estado": "publicada"
     }
+    {
+  "nf": "NF-049",
+  "titulo": "LIRIO REAL",
+  "categoria": "Floral",
+  "dimensiones": "30 × 40 cm",
+  "slug": "lirio-real",
+  "imagen": "imagenes/obras/lirio-real.jpg",
+  "ficha": "obras/lirio-real.html",
+  "estado": "publicada"
+}
   ]
 }
