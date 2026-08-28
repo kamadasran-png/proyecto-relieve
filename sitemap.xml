@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Páginas principales -->
 
     <url>
         <loc>https://nicoletafilip.art/</loc>
@@ -25,6 +26,197 @@
 
     <url>
         <loc>https://nicoletafilip.art/contacto.html</loc>
+    </url>
+
+
+    <!-- Obras NF-001 → NF-047 -->
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/armonia.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/amapolas.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/anemonas.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/anemonas-naranjas.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/arbol-de-oro.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/barco-de-oro.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/cabana-bosque.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/cabana-oro.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/cabana-playa.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/clematies.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/cosmos.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/crisantemos.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/diente-de-leon.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/flor-de-campo.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/gazania.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/guitarra.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/lirios-naranja.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/lirios.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/magnolias-2.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/magnolias.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/magnolias1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/metamorfosis1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/metamorfosis.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/pavo-real.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia-brillante.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia-dorada.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia-limon.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia-morada.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia-perla.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/planta-tropical.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/plumeria-blanca.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/plumerias.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/rosa-mosqueta.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/rosa-mosqueta1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/rosas.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/peonia.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/motivo-floral.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/magnolias3.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/amapolas1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/aguila.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/fenix.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/hojas-tropicales.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/lienzo-floral.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/lienzo-floral1.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/lienzo-floral2.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/obras/crisantemos1.html</loc>
     </url>
 
 </urlset>
