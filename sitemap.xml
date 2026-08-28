@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://nicoletafilip.art/</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/galeria.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/artista.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/tecnicas.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/blog.html</loc>
+    </url>
+
+    <url>
+        <loc>https://nicoletafilip.art/contacto.html</loc>
+    </url>
+
+</urlset>
