@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-051",
+  "numeracion": "NF-001 → NF-053",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -57,6 +57,8 @@
     {"nf":"NF-048","titulo":"AGUILA 2","categoria":"Fauna","dimensiones":"30 × 40 cm","slug":"aguila2","imagen":"imagenes/obras/aguila2.jpg","ficha":"obras/aguila2.html","estado":"publicada"},
     {"nf":"NF-049","titulo":"LIRIO REAL","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"lirio-real","imagen":"imagenes/obras/lirio-real.jpg","ficha":"obras/lirio-real.html","estado":"publicada"},
     {"nf":"NF-050","titulo":"VIBRACIÓN","categoria":"Objetos y símbolos","dimensiones":"30 × 40 cm","slug":"vibracion","imagen":"imagenes/obras/vibracion.jpg","ficha":"obras/vibracion.html","estado":"publicada"},
-    {"nf":"NF-051","titulo":"MARGARITAS","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"margaritas","imagen":"imagenes/obras/margaritas.jpg","ficha":"obras/margaritas.html","estado":"publicada"}
+    {"nf":"NF-051","titulo":"MARGARITAS","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"margaritas","imagen":"imagenes/obras/margaritas.jpg","ficha":"obras/margaritas.html","estado":"publicada"},
+    {"nf":"NF-052","titulo":"COLIBRI","categoria":"Composiciones mixtas","dimensiones":"30 × 40 cm","slug":"colibri","imagen":"imagenes/obras/colibri.jpg","ficha":"obras/colibri.html","estado":"publicada"},
+    {"nf":"NF-053","titulo":"CISNE","categoria":"Fauna","dimensiones":"30 × 40 cm","slug":"cisne","imagen":"imagenes/obras/cisne.jpg","ficha":"obras/cisne.html","estado":"publicada"}
   ]
 }
