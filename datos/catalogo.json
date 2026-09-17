@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-055",
+  "numeracion": "NF-001 → NF-057",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -61,6 +61,8 @@
     {"nf":"NF-052","titulo":"COLIBRI","categoria":"Composiciones mixtas","dimensiones":"30 × 40 cm","slug":"colibri","imagen":"imagenes/obras/colibri.jpg","ficha":"obras/colibri.html","estado":"publicada"},
     {"nf":"NF-053","titulo":"CISNE","categoria":"Fauna","dimensiones":"30 × 40 cm","slug":"cisne","imagen":"imagenes/obras/cisne.jpg","ficha":"obras/cisne.html","estado":"publicada"},
     {"nf":"NF-054","titulo":"AMANECER","categoria":"Paisajes","dimensiones":"30 × 40 cm","slug":"amanecer","imagen":"imagenes/obras/amanecer.jpg","ficha":"obras/amanecer.html","estado":"publicada"},
-    {"nf":"NF-055","titulo":"PEONIA ROSA","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"peonia-rosa","imagen":"imagenes/obras/peonia-rosa.jpg","ficha":"obras/peonia-rosa.html","estado":"publicada"}
+    {"nf":"NF-055","titulo":"PEONIA ROSA","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"peonia-rosa","imagen":"imagenes/obras/peonia-rosa.jpg","ficha":"obras/peonia-rosa.html","estado":"publicada"},
+    {"nf":"NF-056","titulo":"FLORES 1","categoria":"Floral","dimensiones":"20 × 30 cm","slug":"flores-1","imagen":"imagenes/obras/flores-1.jpg","ficha":"obras/flores-1.html","estado":"publicada"},
+    {"nf":"NF-057","titulo":"FLORES 2","categoria":"Floral","dimensiones":"20 × 30 cm","slug":"flores-2","imagen":"imagenes/obras/flores-2.jpg","ficha":"obras/flores-2.html","estado":"publicada"}
   ]
 }
