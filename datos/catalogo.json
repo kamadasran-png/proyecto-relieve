@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-054",
+  "numeracion": "NF-001 → NF-055",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -60,6 +60,7 @@
     {"nf":"NF-051","titulo":"MARGARITAS","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"margaritas","imagen":"imagenes/obras/margaritas.jpg","ficha":"obras/margaritas.html","estado":"publicada"},
     {"nf":"NF-052","titulo":"COLIBRI","categoria":"Composiciones mixtas","dimensiones":"30 × 40 cm","slug":"colibri","imagen":"imagenes/obras/colibri.jpg","ficha":"obras/colibri.html","estado":"publicada"},
     {"nf":"NF-053","titulo":"CISNE","categoria":"Fauna","dimensiones":"30 × 40 cm","slug":"cisne","imagen":"imagenes/obras/cisne.jpg","ficha":"obras/cisne.html","estado":"publicada"},
-    {"nf":"NF-054","titulo":"AMANECER","categoria":"Paisajes","dimensiones":"30 × 40 cm","slug":"amanecer","imagen":"imagenes/obras/amanecer.jpg","ficha":"obras/amanecer.html","estado":"publicada"}
+    {"nf":"NF-054","titulo":"AMANECER","categoria":"Paisajes","dimensiones":"30 × 40 cm","slug":"amanecer","imagen":"imagenes/obras/amanecer.jpg","ficha":"obras/amanecer.html","estado":"publicada"},
+    {"nf":"NF-055","titulo":"PEONIA ROSA","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"peonia-rosa","imagen":"imagenes/obras/peonia-rosa.jpg","ficha":"obras/peonia-rosa.html","estado":"publicada"}
   ]
 }
