@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-053",
+  "numeracion": "NF-001 → NF-054",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -59,6 +59,7 @@
     {"nf":"NF-050","titulo":"VIBRACIÓN","categoria":"Objetos y símbolos","dimensiones":"30 × 40 cm","slug":"vibracion","imagen":"imagenes/obras/vibracion.jpg","ficha":"obras/vibracion.html","estado":"publicada"},
     {"nf":"NF-051","titulo":"MARGARITAS","categoria":"Floral","dimensiones":"30 × 40 cm","slug":"margaritas","imagen":"imagenes/obras/margaritas.jpg","ficha":"obras/margaritas.html","estado":"publicada"},
     {"nf":"NF-052","titulo":"COLIBRI","categoria":"Composiciones mixtas","dimensiones":"30 × 40 cm","slug":"colibri","imagen":"imagenes/obras/colibri.jpg","ficha":"obras/colibri.html","estado":"publicada"},
-    {"nf":"NF-053","titulo":"CISNE","categoria":"Fauna","dimensiones":"30 × 40 cm","slug":"cisne","imagen":"imagenes/obras/cisne.jpg","ficha":"obras/cisne.html","estado":"publicada"}
+    {"nf":"NF-053","titulo":"CISNE","categoria":"Fauna","dimensiones":"30 × 40 cm","slug":"cisne","imagen":"imagenes/obras/cisne.jpg","ficha":"obras/cisne.html","estado":"publicada"},
+    {"nf":"NF-054","titulo":"AMANECER","categoria":"Paisajes","dimensiones":"30 × 40 cm","slug":"amanecer","imagen":"imagenes/obras/amanecer.jpg","ficha":"obras/amanecer.html","estado":"publicada"}
   ]
 }
