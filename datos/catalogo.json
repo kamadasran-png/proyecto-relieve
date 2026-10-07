@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-059",
+  "numeracion": "NF-001 → NF-067",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -595,6 +595,86 @@
       "slug": "rosales-1",
       "imagen": "imagenes/obras/rosales-1-nf059.jpg",
       "ficha": "obras/rosales-1.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-060",
+      "titulo": "AMAPOLAS 2",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "amapolas-2",
+      "imagen": "imagenes/obras/amapolas-2.jpg",
+      "ficha": "obras/amapolas-2.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-061",
+      "titulo": "FLOR DE MANZANO",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "flor-manzano",
+      "imagen": "imagenes/obras/flor-manzano.jpg",
+      "ficha": "obras/flor-manzano.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-062",
+      "titulo": "FLORES SILVESTRES 1",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "flores-silvestres-1",
+      "imagen": "imagenes/obras/flores-silvestres-1.jpg",
+      "ficha": "obras/flores-silvestres-1.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-063",
+      "titulo": "FLORES SILVESTRES 2",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "flores-silvestres-2",
+      "imagen": "imagenes/obras/flores-silvestres-2.jpg",
+      "ficha": "obras/flores-silvestres-2.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-064",
+      "titulo": "FLORES SILVESTRES 3",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "flores-silvestres-3",
+      "imagen": "imagenes/obras/flores-silvestres-3.jpg",
+      "ficha": "obras/flores-silvestres-3.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-065",
+      "titulo": "GINKGO BILOBA",
+      "categoria": "Botánica",
+      "dimensiones": "23 × 32 cm",
+      "slug": "ginkgo-biloba",
+      "imagen": "imagenes/obras/ginkgo-biloba.jpg",
+      "ficha": "obras/ginkgo-biloba.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-066",
+      "titulo": "MARGARITAS 1",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "margaritas-1",
+      "imagen": "imagenes/obras/margaritas-1.jpg",
+      "ficha": "obras/margaritas-1.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-067",
+      "titulo": "NARCISOS",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "narcisos",
+      "imagen": "imagenes/obras/narcisos.jpg",
+      "ficha": "obras/narcisos.html",
       "estado": "publicada"
     }
   ]
