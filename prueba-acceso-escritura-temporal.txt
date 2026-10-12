@@ -1,0 +1,2 @@
+Prueba temporal de acceso de escritura a GitHub.
+Este archivo se eliminará tras verificar la operación.
