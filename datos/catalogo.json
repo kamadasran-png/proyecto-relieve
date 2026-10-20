@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-071",
+  "numeracion": "NF-001 → NF-070",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -583,7 +583,7 @@
       "categoria": "Floral",
       "dimensiones": "30 × 40 cm",
       "slug": "rosales",
-      "imagen": "imagenes/obras/rosales-nf058.jpg",
+      "imagen": "imagenes/obras/rosales.jpg",
       "ficha": "obras/rosales.html",
       "estado": "publicada"
     },
@@ -705,16 +705,6 @@
       "slug": "piscis",
       "imagen": "imagenes/obras/piscis.jpg",
       "ficha": "obras/piscis.html",
-      "estado": "publicada"
-    },
-    {
-      "nf": "NF-071",
-      "titulo": "ROSALES 2",
-      "categoria": "Floral",
-      "dimensiones": "23 × 32 cm",
-      "slug": "rosales-2",
-      "imagen": "imagenes/obras/rosales.jpg",
-      "ficha": "obras/rosales-2.html",
       "estado": "publicada"
     }
   ]
