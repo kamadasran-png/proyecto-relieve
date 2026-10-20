@@ -1,7 +1,7 @@
 {
   "proyecto": "NICOLETA FILIP ART",
   "version": 1,
-  "numeracion": "NF-001 → NF-067",
+  "numeracion": "NF-001 → NF-071",
   "codigo_interno": true,
   "mostrar_nf_al_publico": false,
   "solicitud_informacion": "El código NF se conserva internamente y se facilita únicamente cuando alguien solicita información sobre la obra.",
@@ -675,6 +675,46 @@
       "slug": "narcisos",
       "imagen": "imagenes/obras/narcisos.jpg",
       "ficha": "obras/narcisos.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-068",
+      "titulo": "CAMELIA",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "camelia",
+      "imagen": "imagenes/obras/camelia.jpg",
+      "ficha": "obras/camelia.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-069",
+      "titulo": "FLORES FRUTALES",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "flores-frutales",
+      "imagen": "imagenes/obras/flores-frutal.jpg",
+      "ficha": "obras/flores-frutales.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-070",
+      "titulo": "PISCIS",
+      "categoria": "Fauna",
+      "dimensiones": "23 × 32 cm",
+      "slug": "piscis",
+      "imagen": "imagenes/obras/piscis.jpg",
+      "ficha": "obras/piscis.html",
+      "estado": "publicada"
+    },
+    {
+      "nf": "NF-071",
+      "titulo": "ROSALES 2",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "rosales-2",
+      "imagen": "imagenes/obras/rosales.jpg",
+      "ficha": "obras/rosales-2.html",
       "estado": "publicada"
     }
   ]
