@@ -706,6 +706,16 @@
       "imagen": "imagenes/obras/piscis.jpg",
       "ficha": "obras/piscis.html",
       "estado": "publicada"
+    },
+    {
+      "nf": "NF-071",
+      "titulo": "ROSALES 2",
+      "categoria": "Floral",
+      "dimensiones": "23 × 32 cm",
+      "slug": "rosales-2",
+      "imagen": "imagenes/obras/rosales.jpg",
+      "ficha": "obras/rosales-2.html",
+      "estado": "publicada"
     }
   ]
 }
